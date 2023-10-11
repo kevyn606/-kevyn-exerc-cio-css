@@ -1,0 +1,93 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(63, 63, 63);
+    
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    padding: 0 395px ;
+}
+
+#Esporte{
+    background-color: rgb(164, 202, 164);
+    padding: 20px 395px ;
+    
+}
+#entretenimento{
+    background-color: rgb(167, 164, 202);
+    padding: 20px 395px ;
+}
+#tecnologia{
+    background-color: rgb(139, 91, 179);
+    padding: 20px 395px ;
+}
+#Economia{
+    background-color: rgb(202, 198, 164);
+    padding: 20px 395px ;
+    
+}
+
+h2{
+    margin: 0;
+    padding: 10px;
+}
+
+.grupo{
+    display: grid;
+    grid-template-columns: 280px 280px 280px;
+    gap:40px;
+    max-width: 960px; /* Defina a largura máxima desejada */
+    margin: 0 auto;
+    
+}
+
+.img{
+    width: 280px;
+    height:200px ;
+}
+
+.imagem{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+width: 280px;
+
+}
+
+.butao{
+    background-color: green;
+    color: white;
+    padding: 10px;
+   
+}
+h3{
+    margin: 0;
+    padding: 4px 0;
+}
+
+.texto{
+    margin-top: 0;
+    padding: 4px 0;
+}
